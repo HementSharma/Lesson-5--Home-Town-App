@@ -62,7 +62,7 @@ ul {
   height: 72px;
   margin-right: 1em;
   vertical-align: top;
-  margin-top: 12px;
+  margin-top: 20px;
 }
 
 .header__title {
@@ -380,6 +380,17 @@ footer a {
     max-width: 100%;
   }
 
+  .snippet__thumbnail{
+    display: none;
+  }
+
+  .snippet p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
   .news, .scores, .weather{
     font-size: 1.3em;
   }
@@ -468,5 +479,9 @@ footer a {
 
   .main{
     box-shadow: ghostwhite 5px 5px 2px;
+  }
+
+  .header__title{
+    margin-left: 4em;
   }
 }
